@@ -11,13 +11,13 @@ YOLOv5를 활용한 실시간 비디오 객체 탐지 프로젝트입니다. 웹
 - **성능 최적화**: 프레임 스킵 옵션 지원
 
 ## 🚀 설치 방법
-
-### 1. 필수 패키지 설치
-
+### 1. 필수 
+vscode를 열고    
+main.py 파일을 확인    
+터미널을 열고    
 ```bash
-pip install torch torchvision
-pip install opencv-python
-pip install numpy
+conda create -n yolo python=3.13.12
+conda activate yolo
 ```
 
 ### 2. YOLOv5 저장소 클론 (필수)
@@ -25,9 +25,11 @@ pip install numpy
 ```bash
 git clone https://github.com/ultralytics/yolov5.git
 ```
+이렇게 되면 작업 폴더 아래에 yolov5가 새로 생깁니다. 
 
 ### 3. YOLOv5 의존성 설치
 
+vscode에서 터머널을 열고 
 ```bash
 pip install -r yolov5/requirements.txt
 ```
