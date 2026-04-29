@@ -77,6 +77,8 @@ frame_skip = 3  # 3프레임마다 처리 (성능 향상)
 
 - 실시간 비디오 윈도우에서 탐지된 객체 표시
 - 100프레임마다 결과 이미지를 `output_frame_*.jpg`로 저장
+<img width="1644" height="1040" alt="image" src="https://github.com/user-attachments/assets/32c2585b-7033-4522-b1a8-08cd25f457e7" />
+
 
 ## 📁 프로젝트 구조
 
